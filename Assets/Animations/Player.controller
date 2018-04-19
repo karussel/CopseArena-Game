@@ -8,30 +8,18 @@ AnimatorController:
   m_Name: Player
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: AnimationLeft
-    m_Type: 4
+  - m_Name: MoveX
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AnimationRight
-    m_Type: 4
+    m_Controller: {fileID: 0}
+  - m_Name: MoveY
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AnimationUp
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: AnimationDown
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -52,9 +40,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: AnimationRight
-    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: MoveX
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102914998018205354}
   m_Solo: 0
@@ -76,9 +64,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AnimationDown
-    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: MoveY
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102831183492863096}
   m_Solo: 0
@@ -100,9 +88,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: AnimationDown
-    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: MoveY
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102077265984621132}
   m_Solo: 0
@@ -124,9 +112,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AnimationLeft
-    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: MoveX
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102831183492863096}
   m_Solo: 0
@@ -148,9 +136,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AnimationUp
-    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: MoveY
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102831183492863096}
   m_Solo: 0
@@ -172,9 +160,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: AnimationRight
-    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: MoveX
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102831183492863096}
   m_Solo: 0
@@ -196,9 +184,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: AnimationLeft
-    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: MoveX
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102631327827352708}
   m_Solo: 0
@@ -220,9 +208,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: AnimationUp
-    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: MoveY
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102478700559094574}
   m_Solo: 0
@@ -388,7 +376,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 96, y: 0, z: 0}
+  m_AnyStatePosition: {x: 96, y: -12, z: 0}
   m_EntryPosition: {x: 120, y: 144, z: 0}
   m_ExitPosition: {x: 588, y: 144, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
