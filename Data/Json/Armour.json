@@ -1,0 +1,311 @@
+{
+	"PlateBody": [
+		{
+			"id": 0,
+			"name": "Bronze PlateBody",
+			"type": "Korat",
+			"defense": 8,
+			
+		},
+		
+		{
+			"id": 1,
+			"name": "Iron PlateBody",
+			"type": "Korat",
+			"defense": 14,
+			
+		},
+		
+		{
+			"id": 2,
+			"name": "Steel",
+			"type": "Korat",
+			"defense": 18,
+			
+		},
+		
+		{
+			"id": 3,
+			"name": "Silver",
+			"type": "Korat",
+			"defense": 25,
+			
+		},
+		
+		{
+			"id": 4,
+			"name": "Dragon PlateBody",
+			"type": "Korat",
+			"defense": 35,
+			
+		},
+	],
+		
+	"ChestPiece":[
+		{
+			"id": 0,
+			"name": "Bronze ChestPiece",
+			"type": "Shalidar",
+			"defense": 6,
+		};
+		
+		{
+			"id": 1,
+			"name": "Iron ChestPiece",
+			"type": "Shalidar",
+			"defense": 10,
+		};
+		
+		{
+			"id": 2,
+			"name": "Steel ChestPiece",
+			"type": "Shalidar",
+			"defense": 15,
+		};
+		
+		{
+			"id": 3,
+			"name": "Silver ChestPiece",
+			"type": "Shalidar",
+			"defense": 21,
+		};
+		
+		{
+			"id": 4,
+			"name": "Dragon ChestPiece",
+			"type": "Shalidar",
+			"defense": 28,
+		},
+	],	
+	
+	"Legs":[
+		{
+			"id": 0,
+			"name": "Bronze Legs",
+			"type": "Korat", "Shalidar",
+			"defense": 6,
+		},
+		
+		{
+			"id": 1,
+			"name": "Iron Legs",
+			"type": "Korat", "Shalidar",
+			"defense": 10,
+		},
+		
+				{
+			"id": 2,
+			"name": "Steel Legs",
+			"type": "Korat", "Shalidar",
+			"defense": 15,
+		},
+		
+				{
+			"id": 3,
+			"name": "Silver Legs",
+			"type": "Korat", "Shalidar",
+			"defense": 21,
+		},
+		
+				{
+			"id": 4,
+			"name": "Dragon Legs",
+			"type": "Korat", "Shalidar",
+			"defense": 28,
+		},
+		],
+		
+	"Helmet":[
+		{
+			"id": 0,
+			"name": "Bronze Helmet",
+			"type": "Korat", "Shalidar",
+			"defense": 4,
+			
+		},
+		
+		{
+			"id": 1,
+			"name": "Iron Helmet",
+			"type": "Korat", "Shalidar",
+			"defense": 6,
+			
+		},
+				{
+			"id": 2,
+			"name": "Steel Helmet",
+			"type": "Korat", "Shalidar",
+			"defense": 9,
+			
+		},
+				{
+			"id": 3,
+			"name": "Silver Helmet",
+			"type": "Korat", "Shalidar",
+			"defense": 13,
+			
+		},
+				{
+			"id": 4,
+			"name": "Dragon Helmet",
+			"type": "Korat", "Shalidar",
+			"defense": 18,
+			
+		},
+		
+	],
+		
+	"Gauntlets":[
+		{
+			"id": 0,
+			"name": "Bronze Gauntlets",
+			"type": "Korat", "Shalidar",
+			"defense": 4,
+		},
+		
+		{
+			"id": 1,
+			"name": "Iron Gauntlets",
+			"type": "Korat", "Shalidar",
+			"defense": 6,
+		},
+		
+		{
+			"id": 2,
+			"name": "Steel Gauntlets",
+			"type": "Korat", "Shalidar",
+			"defense": 8,
+		},
+		
+		{
+			"id": 3,
+			"name": "Silver Gauntlets",
+			"type": "Korat", "Shalidar",
+			"defense": 11,
+		},
+		
+		{
+			"id": 4,
+			"name": "Dragon Gauntlets",
+			"type": "Korat", "Shalidar",
+			"defense": 15,
+		},
+	],
+		
+	"Boots":[
+		{
+			"id": 0,
+			"name": "Bronze Boots",
+			"type": "Korat", "Shalidar", "Monesa",
+			"defense": 4,
+		},
+		
+		{
+			"id": 1,
+			"name": "Iron Boots",
+			"type": "Korat", "Shalidar", "Monesa",
+			"defense": 6,
+		},
+		
+		{
+			"id": 2,
+			"name": "Steel Boots",
+			"type": "Korat", "Shalidar", "Monesa",
+			"defense": 8,
+		},
+		
+		{
+			"id": 3,
+			"name": "Silver Boots",
+			"type": "Korat", "Shalidar", "Monesa",
+			"defense": 11,
+		},
+		
+		{
+			"id": 4,
+			"name": "Dragon Boots",
+			"type": "Korat", "Shalidar", "Monesa",
+			"defense": 15,
+		},
+		
+	],
+		
+	"Robe":[
+		{
+			"id": 0,
+			"name": "Bronze Robe",
+			"type": "Monesa",
+			"Defence": 8,
+			
+		},
+		
+		{
+			"id": 0,
+			"name": "Bronze Robe",
+			"type": "Monesa",
+			"Defence": 14,
+			
+		},
+		
+		{
+			"id": 0,
+			"name": "Bronze Robe",
+			"type": "Monesa",
+			"Defence": 20,
+			
+		},
+	
+		{
+			"id": 3,
+			"name": "Silver Robe",
+			"type": "Monesa",
+			"Defence": 28,
+			
+		},
+		
+		{
+			"id": 4,
+			"name": "Dragon Robe",
+			"type": "Monesa",
+			"Defence": 35,
+			
+		},
+	],
+	
+	"Cowl":[
+		{
+			"id": 0,
+			"name": "Bronze Cowl",
+			"type": "Monesa",
+			"Defence": 3,	
+		},
+		
+		{
+			"id": 1,
+			"name": "Iron Cowl",
+			"type": "Monesa",
+			"Defence": 5,	
+		},
+		
+		{
+			"id": 2,
+			"name": "Steel Cowl",
+			"type": "Monesa",
+			"Defence": 7,	
+		},
+		
+		{
+			"id": 3,
+			"name": "Silver Cowl",
+			"type": "Monesa",
+			"Defence": 10,	
+		},
+		
+		{
+			"id": 4,
+			"name": "Dragon Cowl",
+			"type": "Monesa",
+			"Defence": 13,	
+		},
+	],
+}

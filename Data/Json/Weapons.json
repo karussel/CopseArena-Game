@@ -1,0 +1,108 @@
+{
+	"Weapons:[
+		{
+			"id": 0,
+			"name": "Bronze Sword",
+			"type": "Korat",
+			"attack": 5,
+		},
+		
+		{
+			"id": 1,
+			"name": "Iron Sword",
+			"type": "Korat",
+			"attack": 8,
+		},
+		
+		{
+			"id": 2,
+			"name": "Steel Sword",
+			"type": "Korat",
+			"attack": 13,
+		},
+		
+		{
+			"id": 3,
+			"name": "Silver Sword",
+			"type": "Korat",
+			"attack": 19,
+		},
+		
+		{
+			"id": 4,
+			"name": "Dragon Sword",
+			"type": "Korat",
+			"attack": 25,
+		},
+		
+				{
+			"id": 5,
+			"name": "Bronze Staff",
+			"type": "Monesa",
+			"attack": 5,
+		},
+		
+		{
+			"id": 6,
+			"name": "Iron Staff",
+			"type": "Monesa",
+			"attack": 8,
+		},
+		
+		{
+			"id": 7,
+			"name": "Steel Staff",
+			"type": "Monesa",
+			"attack": 13,
+		},
+		
+		{
+			"id": 8,
+			"name": "Silver Staff",
+			"type": "Monesa",
+			"attack": 19,
+		},
+		
+		{
+			"id": 9,
+			"name": "Dragon Staff",
+			"type": "Monesa",
+			"attack": 25,
+		},
+		
+			"id": ,10
+			"name": "Bronze Bow",
+			"type": "Shalidar",
+			"attack": 5,
+		},
+		
+		{
+			"id": 11,
+			"name": "Iron Bow",
+			"type": "Shalidar",
+			"attack": 8,
+		},
+		
+		{
+			"id": 12,
+			"name": "Steel Bow",
+			"type": "Shalidar",
+			"attack": 13,
+		},
+		
+		{
+			"id": 13,
+			"name": "Silver Bow",
+			"type": "Shalidar",
+			"attack": 19,
+		},
+		
+		{
+			"id": 14,
+			"name": "Dragon Bow",
+			"type": "Shalidar",
+			"attack": 25,
+		},
+	],
+	
+}
