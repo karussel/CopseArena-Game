@@ -6,6 +6,13 @@ Solo Project Creator: Kyle Russell
 Description: The Copse arena is an RPG based around combat and story. The idea of the game is to be entirely based in one arena. The player starts being able to pick one of three characters: Korat the Brave, Shalidar the Snake or Menesa the Mystical. The game is designed on the fundamentals of mass replay ability. So, depending on which character you pick the players should feel as if he is playing a different game. Each character will interact with NPC’s differently both in and out of combat. Each fighter is designed to involve different strategies to defeat their opponent. Out of combat there will be different dialogue depending on which NPC is interacted with as everyone in the arena foyer (The Roots) will treat each character differently. The idea behind having dialogue playing a major part in the game is to break the game into two key components. The first being combat and the second being story. Each character has their own motivations for wanting to become the champion of the arena.
 
 --------------------------------------
+Current Run Instructions
+- Download Unity/Open unity
+- Click 'Open' (Top right corner)
+- Find CopseArena-Game location highlight then click 'select folder'
+- In the middle at the top click the play button
+
+--------------------------------------
 Directory layout
 (For the sake of explanation I will be ignoring/marking all folders/files that I didn't create just to mark out assembly stuff)
 
@@ -33,8 +40,6 @@ Directory layout
 - Root/CopseArena-Game/ProjectSettings: Unity package stuff (Nothing I made here)
 
 - Root/CopseArena-Game/tilesets: Tilesets that were used to create the overworld for this game
-  
-
 
 --------------------------------------
 
