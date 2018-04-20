@@ -7,9 +7,12 @@ Description: The Copse arena is an RPG based around combat and story. The idea o
 
 --------------------------------------
 Current Run Instructions
+(Note most recent version is in development branch)
+
 - Download Unity/Open unity
 - Click 'Open' (Top right corner)
 - Find CopseArena-Game location highlight then click 'select folder'
+- In project (bottom left navigate to the scenes folder (Assets/Scenes) And double click Test_Arena
 - In the middle at the top click the play button
 
 --------------------------------------
