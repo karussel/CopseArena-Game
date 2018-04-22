@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="left-down" width="75" height="75" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <properties>
+  <property name="unity:scale" value=".0625"/>
+ </properties>
  <tileset firstgid="1" source="../Tilesets/roguelikeSheet_transparent.tsx"/>
  <layer name="Tile Layer 1" width="75" height="75">
   <data encoding="csv">
