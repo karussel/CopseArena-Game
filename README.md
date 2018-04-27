@@ -51,5 +51,13 @@ Directory layout
 - I couldn't find your text-based data. Create a root folder "data/" and put all your JSON files in there.
 
 
+# Henry comments 27/April
+- Your changelog needs more entries. At least, I hope you're working more than this :)
+- I'm still not sure where your game data files are. You need to get to this very quickly, as you can't start building your game until you can at least load the levels/world of your game. So work on getting loading working (from data files) asap.
+
+
+
+
+
 --------------------------------------
 Github Link: https://github.com/karussel/CopseArena-Game/edit/master/README.md
