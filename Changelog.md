@@ -33,9 +33,13 @@ this arour is characterised by who can use it, attack/defense power and id (desc
 - Added Collision boxes for sprites to be placed in the overworld (not yet active)
 
 --------------------------------------------
-20/4/18 (Changes for)
+28/4/18 (Changes for)
 
 - Added a new background for the arena
 - Added characters for the arena
 - Added a script controller for enemy AI
 
+--------------------------------------------
+2/5/18 (Changes for)
+
+- Added character animations as well as an animation file
