@@ -43,3 +43,4 @@ this arour is characterised by who can use it, attack/defense power and id (desc
 2/5/18 (Changes for)
 
 - Added character animations as well as an animation file
+- Player animations complete and are in game (not yet activatable) located in animations file
