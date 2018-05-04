@@ -17,8 +17,8 @@ void Start() {
         if (Input.GetKeyDown("space"))
         {
 
-            GetComponent<Animator>().SetTrigger("EnemyMelee"); // trigger the melee animation
-            GetComponent<Transform>().position = new Vector2(2.8f, -0.42f); // Move to enemy position (temporary position move when final asset done)
+            GetComponent<Animator>().SetTrigger("LexAttackAnim"); // trigger the melee animation
+            GetComponent<Transform>().position = new Vector2(6.8f, -3.744f); // Move to enemy position (temporary position move when final asset done)
         }
 
     }
