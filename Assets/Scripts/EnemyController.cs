@@ -23,10 +23,10 @@ void Start() {
 
     }
 
-    public void returnEnemy()
+    public void ReturnEnemy()
     {
 
-        GetComponent<Transform>().position = new Vector2(2.8f, -0.42f);
+        GetComponent<Transform>().position = new Vector2(-7.1f, -3.744f); // Move back to original position
 
     }
 
