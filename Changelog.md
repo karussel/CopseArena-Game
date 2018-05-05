@@ -44,3 +44,32 @@ this arour is characterised by who can use it, attack/defense power and id (desc
 
 - Added character animations as well as an animation file
 - Player animations complete and are in game (not yet activatable) located in animations file
+
+--------------------------------------------
+5/5/18 (Changes for)
+
+- Completed animation cyles for characters (battle scene)
+
+--------------------------------------------
+6/5/18
+
+- Animations activatable by pressing space button
+
+--------------------------------------------
+
+Next week plan Summary 
+
+Monday - Tues
+
+-Finish off battle scene
+
+Wed 
+- Implement Dialouge
+
+Thursday - Friday
+- Implement items (From Json files)
+
+Weekend
+- Debugging
+
+
