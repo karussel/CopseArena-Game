@@ -544,6 +544,8 @@ MonoBehaviour:
   enemyHP: 100
   enemyMaxHP: 100
   enemyAttackPower: 25
+  hitparticleObj: {fileID: 4324098156229630, guid: c689d15f5fec1374694837597fecb6f8,
+    type: 2}
 --- !u!1 &1944028073
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +649,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damagetextObj: {fileID: 224211967527862958, guid: 1ee9395c3d446554fb86e55929cbfea1,
+    type: 2}
+  hitparticleObj: {fileID: 4324098156229630, guid: c689d15f5fec1374694837597fecb6f8,
+    type: 2}
+  superauraObj: {fileID: 4769658489323846, guid: 7d246b1828716a94fbcb6a69603559bb,
     type: 2}
 --- !u!1 &2060620182
 GameObject:

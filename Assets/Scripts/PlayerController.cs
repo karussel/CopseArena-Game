@@ -8,8 +8,10 @@ public class PlayerController : MonoBehaviour {
     public static float koratHP = 100;
     public static float koratMaxHP = 100;
     public Transform damagetextObj;
+    public Transform hitparticleObj;
+    public Transform superauraObj;
 
-    
+
 
     // Use this for initialization
     void Start() {
@@ -26,7 +28,7 @@ public class PlayerController : MonoBehaviour {
             BattleFlow.koratTurn = 2; // set Korat turn to end
         }
 
-        if (koratHP <= 0)
+        if (koratHP <= 0) // If statement to destroy Korat if hp is 0
         {
             BattleFlow.koratStatus = "dead";
             Destroy(gameObject);
@@ -35,8 +37,9 @@ public class PlayerController : MonoBehaviour {
 
     public void DamageText()
     {
-        var cloneText =
-        Instantiate(damagetextObj, new Vector2(-7.71f, -3.37f), damagetextObj.rotation);
+        Instantiate(hitparticleObj, transform.position = new Vector2(-7.71f, -3.37f), hitparticleObj.rotation);
+        var cloneText = // Create the hit number 
+        Instantiate(damagetextObj, new Vector2(-7.71f, -3.37f), damagetextObj.rotation); 
         Destroy(cloneText.gameObject, 1.5f); // Remove hit number text
     }
 

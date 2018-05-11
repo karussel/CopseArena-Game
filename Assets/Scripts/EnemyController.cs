@@ -6,7 +6,8 @@ public class EnemyController : MonoBehaviour {
 
     public float enemyHP = 100;
     public float enemyMaxHP = 100;
-    public float enemyAttackPower = 25;
+    public float enemyAttackPower = 20;
+    public Transform hitparticleObj;
 
     // Use this for initialization
     void Start() {
@@ -19,6 +20,7 @@ public class EnemyController : MonoBehaviour {
         if (BattleFlow.koratTurn == 2) // if Korat's turn is finished enemy attacks
         {
             Debug.Log("Enemy turn");
+            Instantiate(hitparticleObj, transform.position = new Vector2(7.575f, -3.744f), hitparticleObj.rotation);
             Invoke("LexAttack", 2.5f); // trigger attack animation with a delay so the animations don't overlap
             BattleFlow.koratTurn = 1; // Set turn back to Korat
         }
@@ -30,11 +32,11 @@ public class EnemyController : MonoBehaviour {
             BattleFlow.damageDisplay = "n";
         }
 
-        if (enemyHP<-0)
+        if (enemyHP < -0)
         {
             Destroy(gameObject);
         }
-            
+
     }
 
     public void LexAttack()
@@ -49,9 +51,17 @@ public class EnemyController : MonoBehaviour {
 
         GetComponent<Transform>().position = new Vector2(-7.1f, -3.744f); // Move back to original position
         PlayerController.koratHP -= enemyAttackPower; // Enemy attack to take hp off Korat
+
         Debug.Log("koratHP" + PlayerController.koratHP);
 
     }
+
+    public void DisplayParticle()
+    {
+        
+    }
+
+
 
 
 }
