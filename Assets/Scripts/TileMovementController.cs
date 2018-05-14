@@ -5,63 +5,66 @@ using UnityEngine;
 // theflyingkeyboard.net
 
 public class TileMovementController : MonoBehaviour {
+
 	private Animator animRef;
+    private Rigidbody2D koratRigidBody;
+
 	Vector3 pos;                                // For movement
 	float speed = 5.0f;                         // Speed of movement
 
+    private bool playerMoving;
+    private Vector2 lastMove;
 
-	private bool AnimationLeft;
-	private bool AnimationRight;
-	private bool AnimationUp;
-	private bool AnimationDown;
 
 	void Start () {
 		
 		animRef = GetComponent<Animator> (); // Reference the animation conditions to this class
+        koratRigidBody = GetComponent<Rigidbody2D>();
 		pos = transform.position;          // Take the initial position
 	}
 
 	void FixedUpdate ()
 	{
-		
-		AnimationRight = false;
-		AnimationUp = false;
-		AnimationDown = false;
+        playerMoving = false;
 
+        if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
+        {
+            playerMoving = true; // activate animation reference
+        }
+        if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
+        {
+            playerMoving = true; // activate animation reference
+        }
 
-		if (Input.GetKey (KeyCode.A) && transform.position == pos) {        // Left
-			pos += Vector3.left;
-			AnimationLeft = true;			// activate left animation bool
-			}
-			else
-		{
-			AnimationLeft = false;
-		}
+        if (Input.GetKey(KeyCode.A) && transform.position == pos)        // Left
+        {
+            pos += Vector3.left;
+            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f); // Saves last movement for animator
+        }
 
 
 		if (Input.GetKey (KeyCode.D) && transform.position == pos) {        // Right
 			pos += Vector3.right;
-			AnimationRight = true;			// activate right animation bool
-			}
+            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f); // Saves last movement for animator
+        }
 
 		if (Input.GetKey (KeyCode.W) && transform.position == pos) {        // Up
 			pos += Vector3.up;
-			AnimationUp = true;			// activate up animation bool
-			}
+            lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical")); // Saves last movement for animator
+        }
 
 		if (Input.GetKey (KeyCode.S) && transform.position == pos) {        // Down
 			pos += Vector3.down;
-			AnimationDown = true;			// activate down animation bool
-			}
+            lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical")); // Saves last movement for animator
+        }
 
-		animRef.SetBool ("AnimationLeft", AnimationLeft);
-		animRef.SetBool ("AnimationRight", AnimationRight);
-		animRef.SetBool ("AnimationUp", AnimationUp);
-		animRef.SetBool ("AnimationDown", AnimationDown);
 
 		animRef.SetFloat ("MoveX", Input.GetAxisRaw ("Horizontal"));
 		animRef.SetFloat ("MoveY", Input.GetAxisRaw ("Vertical"));
+        animRef.SetBool("PlayerMoving", playerMoving);
+        animRef.SetFloat("LastMoveX", lastMove.x);
+        animRef.SetFloat("LastMoveY", lastMove.y);
 
-		transform.position = Vector3.MoveTowards (transform.position, pos, Time.deltaTime * speed);    // Move there
+        transform.position = Vector3.MoveTowards (transform.position, pos, Time.deltaTime * speed);    // Move there
 		}
 	}
