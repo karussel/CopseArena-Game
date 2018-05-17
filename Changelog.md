@@ -31,6 +31,7 @@ this arour is characterised by who can use it, attack/defense power and id (desc
 - Added a generic characters spritesheet which includes 8 or so unique characters which will be used as temporary NPCs
 (With a few edits will become fully featured later on)
 - Added Collision boxes for sprites to be placed in the overworld (not yet active)
+<<<<<<< HEAD
 
 --------------------------------------------
 28/4/18 (Changes for)
@@ -73,3 +74,5 @@ Weekend
 - Debugging
 
 
+=======
+>>>>>>> Development

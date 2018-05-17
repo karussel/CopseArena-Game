@@ -1,0 +1,24 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'overworld_final_mesh_0004.obj'
+
+# Vertices (Count = 4)
+v -960 -720 -0.45
+v -976 -720 -0.45
+v -976 -704 -0.45
+v -960 -704 -0.45
+
+# Texture cooridinates (Count = 4)
+vt 0.9659091 0.7110266
+vt 0.982438 0.7110266
+vt 0.982438 0.7414448
+vt 0.9659091 0.7414448
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g overworld_final_mesh_0004
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+

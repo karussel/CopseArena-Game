@@ -1,0 +1,19 @@
+[
+  {
+    "id": 0,
+    "title": "Steel Gloves",
+    "value": 6,
+    "power": 0,
+    "defense": 4,
+    "vitality": 2
+  },
+
+  {
+    "id": 1,
+    "title": "The Great Stick",
+    "value": 543,
+    "power": 52,
+    "defense": 0,
+    "vitality": 5
+  }
+]
